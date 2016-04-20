@@ -1,0 +1,288 @@
+body {
+	margin: 0;
+}
+
+.top{
+	width: 100%;
+	height: 60px;
+	background-color: #1e89e0;
+}
+
+.top_container{
+	width: 1180px;
+	margin:0 auto;
+	line-height: 60px
+}
+
+.top_container>a{
+	width: 134px;
+	font-size: 16px;
+	float: left;
+	text-align: center;
+}
+
+#ele_logo{
+	width: 105px;
+	text-align: left;
+	font-size: 26px;
+	margin-right: 30px;
+}
+
+#ele_mainpage{
+	width: 112px;
+}
+
+.top_container >a:link, .top_container >a:visited,.login_register>a:link,.login_register a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+
+.top_userCount>a:link, .top_userCount>a:visited{
+	color: #d2e7f9;
+	text-decoration: none;
+}
+
+.top_userCount {
+	width: 504px;
+	float: right;
+}
+
+.top_userCount>a{
+	width: 86px;
+	padding: 0 10px;
+	font-size: 14px;
+	text-align: right;
+	float: left;
+}
+
+.login_register span{
+	color: #fff;
+}
+
+.login_register{
+	width: 93.672px;
+	float: right;
+	text-align: right;
+	font-size:14px; 
+}
+
+.main_container{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.location_search{
+	height: 54px;
+	line-height: 54px;
+}
+
+.location{
+	width: 268.172px;
+	float: left;
+}
+
+.search{
+	width: 282px;
+	height: 30px;
+	border: 1px;
+	margin: 10px 0;
+	float: right;
+}
+
+.location span{
+	font-size: 12px;
+}
+
+#current_location{
+	width: 53px;
+	margin-right: 5px;
+	color: #999;
+	float: left;
+}
+
+.location_current{
+	max-width: 138px;
+	margin-right: 6px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+
+.location_change{
+	width: 60px;
+	float: left;
+}
+
+.location_current a{
+	text-decoration: none;
+}
+.location_current a:hover {
+	color: #0089dc;
+}
+
+.location_change a{
+	text-decoration: none;
+	color: #0089dc;
+}
+
+#globalsearch {
+	width: 220px;
+	height: 24px;
+	padding: 0 8px;
+	margin: 4px 0;
+	float: right;
+}
+
+.waimai_tuangou {
+	height: 41px;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+a.waimai {
+	width: 72px;
+	height: 40px;
+	padding: 0 20px;
+	border-bottom: 3px solid #0089dc;
+	margin-bottom: -2px;
+	color: #0089dc;
+
+}
+a.waimai:link, a.waimai:visited{ text-decoration:none; }
+
+a.tuangou {
+	width: 90px;
+	width: 40px;
+	padding: 0 20px;
+	color: #666;
+}
+a.tuangou:link, a.tuangou:visited{text-decoration:none;}
+
+.shop_nav_filter {
+	width: 1178px;
+	height: 96px;
+	border: 1px solid #e6e6e6;
+}
+
+.shop_nav{
+	width: 1070px;
+	height: 36px;
+	padding: 10px 10px 10px 98px;
+	position: relative;
+}
+
+.shop_nav span{
+	width: 60px;
+	height: 26px;
+	padding: 0 10px;
+	margin-right: 8px;
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	color: #999;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.all_shop{
+	background-color: #0089dc;
+	color: #fff;
+	border-radius: 3px;
+}
+
+a.shop_nav_others {color: #666;}
+a.famous_shop {color: #f74342}
+
+.shop_nav a{
+	width: 56px;
+	height: 26px;
+	padding: 0 10px;
+	margin: 5px 6px;
+	text-decoration: none;
+	line-height: 26px;
+	font-size: 14px;
+	float: left;
+}
+
+a.famous_shop:hover, a.shop_nav_others:hover{background-color: #f6f6f6}
+
+.shop_filter {
+	width: 1178px;
+	height: 40px;
+	background-color: #f5f5f5;
+}
+
+.rating{
+	width: 400px;
+	margin-left: 10px;
+	float: left;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.rating a:link, .rating a:visited{
+	text-decoration:none;
+}
+
+.default_rating {
+	width: 56px;
+	padding: 0 7px;
+	color: #0089dc;
+	float: left;
+}
+
+.number_rating, .pingjia_rating{
+	width: 42px;
+	padding: 0 7px;
+	color: #666;
+	float: left;
+}
+
+.other_rating {
+	width: 75px;
+	padding: 0 7px;
+	float: left;
+}
+
+.moneytake_rating {
+	width: 112px;
+	padding: 0 7px;
+	float: left;
+}
+
+.option {
+	width: 395px;
+	height: 34px;
+	padding: 0 10px;
+	border-left: 1px solid #e6e6e6;
+	margin: 3px 10px 3px 0;
+	float: right;
+	line-height: 34px;
+	font-size: 14px;
+}
+
+.new_locationshop {
+	width: 1158px;
+	height: 42px;
+	padding: 0 10px;
+	border: 1px solid #ffe4b9;
+	margin-top: 10px;
+	background-color: #fffdee;
+	line-height: 44px;
+	font-size: 14px;
+}
+
+.new_locationshop a:link {text-decoration:none;}
+
+.new_locationshop var{
+	font-style: normal;
+	color: #f63;
+	font-size: 20px;
+}
+
+
+
+
