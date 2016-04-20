@@ -1,0 +1,3 @@
+# fork_ele_shoppage
+这是模仿ele商店页面的html,css来写的，没用javascript所以看不到交互效果 
+也没法获取服务器数据下拉刷新和各种筛选，当然这些都是要用到js的
