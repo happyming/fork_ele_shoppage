@@ -28,7 +28,6 @@ window.onload = function () {
                 list.style.top = parseInt(list.style.top) + speed + 'px';
                 setTimeout(go, inteval);
             } else {
-                console.log(list.style.top);
                 list.style.top = -98*(index-1);
                 isanimated = false;
             }
