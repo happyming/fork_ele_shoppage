@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <title></title>
         <link href="ele.css" rel="stylesheet">
+        <script type="text/javascript" src="ele.js"></script>
     </head>
     <body>
         <div class="top">
-            <div class="top_container">
+            <div class="top_container" style="top: 0;">
                 <a href="https://www.ele.me/" id="ele_logo"><span>饿了么</span></a>
                 <a href="https://www.ele.me/" id="ele_mainpage">首页</a>
                 <a href="https://www.ele.me/premium/wtw27pnxv422">品牌商家</a>
@@ -16,14 +17,14 @@
                 <div class="top_userCount">
                     <a href="https://www.ele.me/gift/">积分商城</a>
                     <a href="https://www.ele.me/support/center">服务中心</a>
-                    <a href="#">手机应用</a>
+                    <a href="">手机应用</a>
                     <div class="login_register">
                         <a href="https://account.ele.me/login" target="_blank">登录</a><span>/</span><a href="https://account.ele.me/register" target="_blank">注册</a>
                     </div>
                 </div>
             </div>            
         </div>  <!-- top over -->
-        
+
         <div class="main_container">
             <div class="location_search">
                 <div class="location">
@@ -35,24 +36,43 @@
                     <input id="globalsearch" placeholder="搜索商家，美食...">
                 </div>
             </div>
+
+            <div class="ppt_container" id="ppt_container">
+                <div class="ppt_wrapper" id="list" style="top: 0;">
+                    <a href="https://www.ele.me/activity/609" target="_blank"><img src="images/1.png" class="ppt_img"></a>
+                    <a href="https://www.ele.me/activity/614" target="_blank"><img src="images/2.png" class="ppt_img"></a>
+                    <a href="https://www.ele.me/activity/160" target="_blank"><img src="images/3.png" class="ppt_img"></a>
+                </div>
+                <div>
+                    <ol id = "ppt_buttons">
+                        <li index="1" class="button active">1</li>
+                        <li index="2" class="button">2</li>
+                        <li index="3" class="button">3</li>
+                    </ol>
+                </div>
+            </div>
+
             <div class="waimai_tuangou">
-                <a href="" class="waimai">外卖商家</a>
-                <a href="" class="tuangou">附近的团购</a>
+                <a href="JavaScript:" class="waimai">外卖商家</a>
+                <a href="http://www.dianping.com/" class="tuangou">附近的团购</a>
+                <div class="whotakeele">
+                    <img src="images/whotakeele.png" height="55" width="186">
+                </div>
             </div>
 
             <div class="shop_nav_filter container">
                 <div class="shop_nav">
                     <span class="shop_nav_name">商家分类:</span>
-                    <a href="" class="all_shop">全部商家</a>
-                    <a href="" class="famous_shop">品牌商家</a>
-                    <a href="" class="shop_nav_others">快餐便当</a>
-                    <a href="" class="shop_nav_others">特色菜系</a>
-                    <a href="" class="shop_nav_others">异国料理</a>
-                    <a href="" class="shop_nav_others">小吃夜宵</a>
-                    <a href="" class="shop_nav_others">甜品饮品</a>
-                    <a href="" class="shop_nav_others">果蔬生鲜</a>
-                    <a href="" class="shop_nav_others">鲜花蛋糕</a>
-                    <a href="" class="shop_nav_others">商店超市</a>
+                    <a href="javascript:" class="all_shop">全部商家</a>
+                    <a href="javascript:" class="famous_shop">品牌商家</a>
+                    <a href="javascript:" class="shop_nav_others">快餐便当</a>
+                    <a href="javascript:" class="shop_nav_others">特色菜系</a>
+                    <a href="javascript:" class="shop_nav_others">异国料理</a>
+                    <a href="javascript:" class="shop_nav_others">小吃夜宵</a>
+                    <a href="javascript:" class="shop_nav_others">甜品饮品</a>
+                    <a href="javascript:" class="shop_nav_others">果蔬生鲜</a>
+                    <a href="javascript:" class="shop_nav_others">鲜花蛋糕</a>
+                    <a href="javascript:" class="shop_nav_others">商店超市</a>
                 </div>
                 <div class="shop_filter">
                     <div class="rating">
@@ -81,37 +101,475 @@
                     想吃好点的，看看附近
                     <var class="newshop_number">22 家</var>
                     品牌商家吧，
-                    <a href="＃">立即查看</a>
+                    <a href="javascript:">立即查看</a>
                 </span>
             </div>
 
             <div class="shop_list">
-            <span>fdsf</span>
-                <div class="shop_list_container"></div>
-            </div>                    
+                <div class="shop_list_container">
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/malatang.jpg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/1.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">Han Bao 店</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/3.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">好运水果店</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/3.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">好运水果店</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/4.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">甜蜜蜜手抓饼</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/4.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">甜蜜蜜手抓饼</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/6.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/7.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">奇馨花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/8.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">百合花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/9.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">西西里的后花园</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/10.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/11.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/1.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/3.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/4.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/6.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/7.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/8.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">百合花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/9.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">西西里的后花园</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/10.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">重庆麻辣烫</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/11.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">奇馨花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/1.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">奇馨花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="shop_list_item">
+                        <div class="shop_logo">
+                            <img src="images/shoplogo/8.jpeg" height="70" width="70">
+                            <span>30 分钟</span>
+                        </div>
+                        <div class="shop_content">
+                            <div class="shop_title">百合花坊</div>
+                            <div class="shop_star"></div>
+                            <span class="shop_monthsales">月售1804单</span>
+                            <div class="shop_cost">10元起送 / 免费配送</div>
+                            <div class="shop_activity">
+                                <i style="background: #f4a937;">专</i>
+                                <i style="background: #f07373;">减</i>
+                                <i style="background: #70bc46;">首</i>
+                                <i style="background: #fff;color: #ff4e00;border: 1px solid;padding: 0;">付</i>
+                                <i style="background: #fff;color: #9071cb;border: 1px solid;padding: 0;">票</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
         
         <div class="footer">
             <div class="container">
                 <div class="footer_link">
                     <h3 class="footer_link_title">用户帮助</h3>
-                    <a href="" class="footer_link_item">服务中心</a>
-                    <a href="" class="footer_link_item">常见问题</a>
-                    <a href="" class="footer_link_item">在线客服</a>
+                    <a href="https://www.ele.me/support/center" target="_blank" class="footer_link_item">服务中心</a>
+                    <a href="https://www.ele.me/support/question/default" target="_blank" class="footer_link_item">常见问题</a>
+                    <a href="javascirpt:" class="footer_link_item">在线客服</a>
                 </div>
                 <div class="footer_link">
                     <h3 class="footer_link_title">商务合作</h3>
-                    <a href="" class="footer_link_item">我要开店</a>
-                    <a href="" class="footer_link_item">加盟指南</a>
-                    <a href="" class="footer_link_item">市场合作</a>
-                    <a href="" class="footer_link_item">开放平台</a>
+                    <a href="https://kaidian.ele.me/" target="_blank" class="footer_link_item">我要开店</a>
+                    <a href="https://www.ele.me/support/about/jiameng" target="_blank" class="footer_link_item">加盟指南</a>
+                    <a href="https://www.ele.me/support/about/contact" target="_blank" class="footer_link_item">市场合作</a>
+                    <a href="http://openapi.eleme.io/help" target="_blank" class="footer_link_item">开放平台</a>
                 </div>
                 <div class="footer_link">
                     <h3 class="footer_link_title">关于我们</h3>
                     <a href="https://www.ele.me/support/about" class="footer_link_item" target="_blank">饿了么介绍</a>
-                    <a href="" class="footer_link_item">加入我们</a>
-                    <a href="" class="footer_link_item">联系我们</a>
-                    <a href="" class="footer_link_item">服务协议</a>
+                    <a href="http://jobs.ele.me/" class="footer_link_item" target="_blank">加入我们</a>
+                    <a href="https://www.ele.me/support/about/contact" class="footer_link_item" target="_blank">联系我们</a>
+                    <a href="https://www.ele.me/support/about/agreement" class="footer_link_item" target="_blank">服务协议</a>
                 </div>
                 <div class="footer_contact">
                     <div class="footer_contact_item">

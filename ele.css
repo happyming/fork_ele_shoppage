@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background:#f7f7f7;
 }
 
 .top{
@@ -19,6 +20,10 @@ body {
 	font-size: 16px;
 	float: left;
 	text-align: center;
+}
+
+.top_container>a:hover{
+	background: #0c77d1;
 }
 
 #ele_logo{
@@ -53,6 +58,10 @@ body {
 	font-size: 14px;
 	text-align: right;
 	float: left;
+}
+
+.top_userCount>a:hover{
+	color: #fff;
 }
 
 .login_register span{
@@ -135,6 +144,60 @@ body {
 	float: right;
 }
 
+.ppt_container {
+	width: 1180px;
+	height: 98px;
+	margin: 0 auto 10px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.ppt_wrapper {
+	height: 98px;
+	position: absolute;
+	z-index: 1;
+	font-size: 0;
+}
+
+.ppt_container ol{
+	bottom: 5px;
+	right: 5px;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	font-size: 0;
+	z-index: 2;
+}
+
+.button{
+	display: inline-block;
+	width: 13px;
+	background-color: rgba(255,255,255,.5);
+	color: #999;
+	font-size: 12px;
+	padding: 0 1px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 5px;
+	line-height: 18px;
+}
+
+.active{
+	background-color:rgba(255,102,0,.8);
+	color: #fff;
+	font-weight: 700;
+	display: inline-block;
+	width: 13px;
+	font-size: 12px;
+	padding: 0 1px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 5px;
+	line-height: 18px;
+}
+
 .waimai_tuangou {
 	height: 41px;
 	line-height: 40px;
@@ -160,6 +223,14 @@ a.tuangou {
 	color: #666;
 }
 a.tuangou:link, a.tuangou:visited{text-decoration:none;}
+
+.whotakeele{
+	float: right;
+	width: 186px;
+	height: 42px;
+	margin-top: -6px;
+	margin-bottom: -13px;
+}
 
 .shop_nav_filter {
 	width: 1178px;
@@ -223,7 +294,7 @@ a.famous_shop:hover, a.shop_nav_others:hover{background-color: #f6f6f6}
 	font-size: 14px;
 }
 
-.rating a:link, .rating a:visited{
+.rating a:link{
 	text-decoration:none;
 }
 
@@ -246,11 +317,16 @@ a.famous_shop:hover, a.shop_nav_others:hover{background-color: #f6f6f6}
 	padding: 0 7px;
 	float: left;
 }
-
+.other_rating a{
+	color: #666;
+}
 .moneytake_rating {
 	width: 112px;
 	padding: 0 7px;
 	float: left;
+}
+.moneytake_rating a {
+	color: #666;
 }
 
 .option {
@@ -283,12 +359,93 @@ a.famous_shop:hover, a.shop_nav_others:hover{background-color: #f6f6f6}
 	font-size: 20px;
 }
 
-.shop_list{
+.shop_list {
 	width: 1178px;
-	border:1px solid green;
-	background: #e6e6e6;
+	border:1px solid #e6e6e6;
+	background: #fff;
 	margin:0 auto;
 	margin-top: 20px;
+	clear: both;
+}
+
+.shop_list_container{
+	width: 1178px;
+	overflow: auto;
+}
+
+.shop_list_container a{
+	text-decoration: none;
+}
+
+.shop_list_item{
+	width: 25%;
+	background-color: #fff;
+	border-bottom: 1px #f5f5f5 solid;
+	position: relative;
+	float: left;
+}
+
+.shop_list_item:hover{
+	background-color: #f5f5f5;
+}
+
+.shop_logo{
+	padding: 20px;
+	color: #999;
+	text-align: center;
+	float: left;
+	font-size: 12px;
+}
+
+.shop_logo img{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.shop_content{
+	padding: 20px;
+}
+
+.shop_title{
+	margin-bottom: 6px;
+	font-size: 16px;
+	font-weight: 600px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #333;
+}
+
+.shop_monthsales{
+	color: #999;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.shop_cost {
+	color: #999;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.shop_activity {
+	margin-top: 9px;
+}
+
+.shop_activity i{
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+	text-align: center;
+	width: 16px;
+	border-radius: 2px;
+	margin-right: 3px;
+	padding: 1px;
+	white-space: nowrap;
 }
 
 .footer{
@@ -297,6 +454,7 @@ a.famous_shop:hover, a.shop_nav_others:hover{background-color: #f6f6f6}
 	border-top: 1px solid #eee;
 	margin-top: 50px;
 	background-color: #f7f7f7;	
+	overflow: auto;
 }
 
 .container{
